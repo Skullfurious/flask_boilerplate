@@ -25,3 +25,7 @@ Make sure all subfolders in the `src` directory include a `__init__.py` even if 
 
 ## Attribution and Licensing
 Follows the principles of the MIT license which is included in the repository.
+
+# Credits
+* Bootstrap 4.5.3
+* ChatGPT (Inquiries on Standard Practices)

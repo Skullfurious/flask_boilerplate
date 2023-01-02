@@ -1,7 +1,9 @@
-from flask import Flask
+from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 @app.route("/")
-def hello():
-    return "<h1>SUP</h1>"
+@app.route("/home")
+def home():
+    return render_template("home.html")
